@@ -129,7 +129,9 @@ export default function Footer({ locale }: { locale: string }) {
           {/* Social icons */}
           <div className="flex items-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/cityopticskw"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold text-white/50 transition-all text-xs font-bold"
             >
               f
