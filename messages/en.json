@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "book": "Book Appointment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "See the World Differently",
+    "subtitle": "Kuwait's Premier Optical Experience — Since 1998",
+    "cta": "Book an Appointment",
+    "cta2": "View Collection"
+  },
+  "about": {
+    "title": "26 Years of Clear Vision",
+    "description": "Since 1998, Loyal City Optics has been Kuwait's trusted destination for premium eyewear. Located in the heart of Salmiya, we combine expert optical care with the finest international frame collections.",
+    "story_title": "A Legacy of Clear Vision",
+    "story_body": "Founded in 1998 in Salmiya, Kuwait, Loyal City Optics began with a simple mission: to provide every customer with the perfect vision and the perfect frame to match their personality.\n\nOver 26 years, we have served thousands of families across Kuwait, becoming one of the most trusted names in optical care in the country.",
+    "values_title": "Our Values",
+    "value1_title": "Vision",
+    "value1_desc": "Helping every customer see their best",
+    "value2_title": "Trust",
+    "value2_desc": "26 years built on honest expert advice",
+    "value3_title": "Excellence",
+    "value3_desc": "The finest frames, the clearest lenses"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive optical care for the whole family",
+    "eye_exam": "Eye Examination",
+    "eye_exam_desc": "Comprehensive eye tests by certified opticians",
+    "frames": "Premium Frames",
+    "frames_desc": "500+ frames from top international brands",
+    "lenses": "Prescription Lenses",
+    "lenses_desc": "All lens types — single vision, bifocal, progressive",
+    "sunglasses": "Sunglasses",
+    "sunglasses_desc": "Latest styles and UV protection"
+  },
+  "gallery": {
+    "title": "Our Collection",
+    "subtitle": "Curated frames for every style",
+    "all": "All",
+    "men": "Men",
+    "women": "Women",
+    "unisex": "Unisex",
+    "kids": "Kids",
+    "sunglasses": "Sunglasses"
+  },
+  "book": {
+    "title": "Book an Appointment",
+    "subtitle": "Schedule your visit — we'll confirm via WhatsApp",
+    "name": "Full Name",
+    "phone": "Phone (WhatsApp)",
+    "email": "Email",
+    "date": "Preferred Date",
+    "time": "Preferred Time",
+    "morning": "Morning (9–12)",
+    "afternoon": "Afternoon (12–5)",
+    "evening": "Evening (5–9:30)",
+    "service": "Service",
+    "eye_exam": "Eye Examination",
+    "frame_fitting": "Frame Fitting",
+    "contact_lenses": "Contact Lenses",
+    "other": "Other",
+    "notes": "Notes (optional)",
+    "submit": "Book via WhatsApp",
+    "success": "We'll confirm your appointment shortly on WhatsApp!"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We're here to help you see clearly",
+    "address": "Saba Street #118, Block #10, Near Gulf British Academy & Edee Super Market, Salmiya, Kuwait",
+    "phone": "+965 2562 0966",
+    "whatsapp": "+965 6960 2959",
+    "email": "info@loyalcityoptics.com",
+    "hours_title": "Opening Hours",
+    "hours_weekdays": "Saturday – Thursday: 9:00 AM – 9:30 PM",
+    "hours_friday": "Friday: 10:00 AM – 9:30 PM",
+    "whatsapp_cta": "Chat with us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Kuwait's Premier Optical Experience Since 1998",
+    "shop": "Shop",
+    "services": "Services",
+    "hours": "Hours",
+    "contact": "Contact",
+    "rights": "© 2025 Loyal City Optics. All rights reserved.",
+    "address": "Saba St #118, Block #10, Salmiya, Kuwait",
+    "since": "Since 1998"
+  },
+  "cta": {
+    "title": "Ready to See Clearly?",
+    "subtitle": "Book your eye examination today",
+    "button": "WhatsApp Us Now"
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "item1": "26 Years Experience",
+    "item1_desc": "Serving Kuwait since 1998",
+    "item2": "Expert Optometrists",
+    "item2_desc": "Certified and experienced",
+    "item3": "500+ Frames",
+    "item3_desc": "International brands",
+    "item4": "Same-Day Service",
+    "item4_desc": "Fast lens cutting in-house",
+    "item5": "10,000+ Customers",
+    "item5_desc": "Trusted by Kuwait families"
+  },
+  "collection": {
+    "title": "Curated for Kuwait",
+    "classic": "Classic Frames",
+    "designer": "Designer Collection",
+    "sports": "Sports & Active"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "t1_text": "The best optical shop in Kuwait! Been coming here for 15 years and never disappointed.",
+    "t1_name": "Ahmed Al-Rashidi",
+    "t2_text": "Professional service and amazing frame selection. My whole family shops here.",
+    "t2_name": "Fatima Hassan",
+    "t3_text": "Got my glasses the same day. Excellent quality and very helpful staff.",
+    "t3_name": "Mohammed Al-Sabah"
+  }
+}
