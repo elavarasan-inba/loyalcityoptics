@@ -7,18 +7,18 @@ import { useTranslations } from 'next-intl';
 import { X, ZoomIn } from 'lucide-react';
 
 const FRAMES = [
-  { id: 1, category: 'men', src: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=600&q=80', alt: 'Classic men frame' },
-  { id: 2, category: 'women', src: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80', alt: 'Elegant women frame' },
-  { id: 3, category: 'sunglasses', src: 'https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=600&q=80', alt: 'Luxury sunglasses' },
-  { id: 4, category: 'men', src: 'https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=600&q=80', alt: 'Round men frame' },
-  { id: 5, category: 'women', src: 'https://images.unsplash.com/photo-1556306535-38febf6782e4?w=600&q=80', alt: 'Cat eye frame' },
-  { id: 6, category: 'kids', src: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&q=80', alt: 'Colourful kids frame' },
-  { id: 7, category: 'sunglasses', src: 'https://images.unsplash.com/photo-1601699491406-be5f0e27aba4?w=600&q=80', alt: 'Aviator sunglasses' },
-  { id: 8, category: 'unisex', src: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&q=80', alt: 'Unisex frame' },
-  { id: 9, category: 'men', src: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&q=80', alt: 'Wayfarer frame' },
-  { id: 10, category: 'women', src: 'https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?w=600&q=80', alt: 'Oversized women frame' },
-  { id: 11, category: 'sunglasses', src: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=600&q=80', alt: 'Sports sunglasses' },
-  { id: 12, category: 'unisex', src: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80', alt: 'Round unisex frame' },
+  { id: 1,  category: 'men',        src: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=600&q=80', alt: 'Classic men frame' },
+  { id: 2,  category: 'women',      src: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80', alt: 'Elegant women frame' },
+  { id: 3,  category: 'sunglasses', src: 'https://images.unsplash.com/photo-1473496169904-658ba7574b0d?w=600&q=80', alt: 'Luxury sunglasses' },
+  { id: 4,  category: 'men',        src: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600&q=80', alt: 'Round men frame' },
+  { id: 5,  category: 'women',      src: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80', alt: 'Cat eye frame' },
+  { id: 6,  category: 'kids',       src: 'https://images.unsplash.com/photo-1631046863560-8e2a7e44c29e?w=600&q=80', alt: 'Colourful kids frame' },
+  { id: 7,  category: 'sunglasses', src: 'https://images.unsplash.com/photo-1577803645773-f96470509666?w=600&q=80', alt: 'Aviator sunglasses' },
+  { id: 8,  category: 'unisex',     src: 'https://images.unsplash.com/photo-1519742866993-6bd55519f7a9?w=600&q=80', alt: 'Unisex frame' },
+  { id: 9,  category: 'men',        src: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80', alt: 'Wayfarer frame' },
+  { id: 10, category: 'women',      src: 'https://images.unsplash.com/photo-1483401757487-2ced3fa77952?w=600&q=80', alt: 'Oversized women frame' },
+  { id: 11, category: 'sunglasses', src: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80', alt: 'Sports sunglasses' },
+  { id: 12, category: 'unisex',     src: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=600&q=80', alt: 'Round unisex frame' },
 ];
 
 const FILTERS = ['all', 'men', 'women', 'unisex', 'kids', 'sunglasses'] as const;

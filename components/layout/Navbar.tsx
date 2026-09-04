@@ -50,13 +50,13 @@ export default function Navbar({ locale }: { locale: string }) {
             href={`/${locale}`}
             className="flex items-center gap-3 group"
           >
-            <div className="w-9 h-9 rounded-full bg-white flex items-center justify-center shrink-0 ring-1 ring-white/20 group-hover:ring-gold/50 transition-all overflow-hidden">
+            <div className="w-12 h-12 shrink-0 flex items-center justify-center">
               <Image
                 src="/logo.png"
                 alt="Loyal City Optics Logo"
-                width={36}
-                height={36}
-                className="object-contain scale-90"
+                width={48}
+                height={48}
+                className="object-contain drop-shadow-[0_0_6px_rgba(201,168,76,0.4)]"
               />
             </div>
             <span className={`text-gold font-playfair font-bold text-base tracking-widest uppercase hidden sm:block ${isRtl ? 'font-tajawal' : ''}`}>

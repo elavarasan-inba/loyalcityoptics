@@ -16,8 +16,8 @@ export default function Footer({ locale }: { locale: string }) {
         {/* Top row */}
         <div className="mb-12 text-center">
           <div className="flex items-center justify-center gap-4 mb-3">
-            <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center overflow-hidden ring-2 ring-gold/30">
-              <Image src="/logo.png" alt="Logo" width={48} height={48} className="object-contain scale-90" />
+            <div className="w-14 h-14 flex items-center justify-center">
+              <Image src="/logo.png" alt="Logo" width={56} height={56} className="object-contain drop-shadow-[0_0_6px_rgba(201,168,76,0.4)]" />
             </div>
             <h2 className="font-playfair text-2xl text-gold tracking-widest uppercase">
               LOYAL CITY OPTICS
@@ -99,7 +99,7 @@ export default function Footer({ locale }: { locale: string }) {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="text-gold/50 shrink-0" />
-                <span>+965 XXXX XXXX</span>
+                <a href="tel:+96525620966" className="hover:text-gold transition-colors">+965 2562 0966</a>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle size={14} className="text-gold/50 shrink-0" />
@@ -135,7 +135,9 @@ export default function Footer({ locale }: { locale: string }) {
               f
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/cityoptics_salmiya"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center hover:border-gold hover:text-gold text-white/50 transition-all text-xs font-bold"
             >
               IG
