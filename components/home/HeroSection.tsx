@@ -1,16 +1,11 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import dynamic from 'next/dynamic';
+import { useRef } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useParams } from 'next/navigation';
-
-const IrisExpand = dynamic(() => import('@/components/three/IrisExpand'), {
-  ssr: false,
-  loading: () => <div className="w-full h-full" />,
-});
+import IrisExpand from '@/components/three/IrisExpand';
 
 // Floating particles
 function Particles() {
@@ -49,15 +44,6 @@ export default function HeroSection() {
     offset: ['start start', 'end start'],
   });
 
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  useEffect(() => {
-    const unsubscribe = scrollYProgress.on('change', (v) => {
-      setScrollProgress(v);
-    });
-    return unsubscribe;
-  }, [scrollYProgress]);
-
   const irisScale = useTransform(scrollYProgress, [0, 0.5], [1, 1.4]);
 
   return (
@@ -81,7 +67,7 @@ export default function HeroSection() {
         style={{ scale: irisScale }}
       >
         <div className="w-[min(60vw,60vh)] h-[min(60vw,60vh)] opacity-80">
-          <IrisExpand scrollProgress={scrollProgress} />
+          <IrisExpand scrollProgress={0} />
         </div>
       </motion.div>
 
@@ -89,7 +75,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 flex items-center justify-center pointer-events-none"
         style={{
-          background: `radial-gradient(circle at center, rgba(201,168,76,${scrollProgress * 0.15}) 0%, transparent 60%)`,
+          background: 'radial-gradient(circle at center, rgba(201,168,76,0.08) 0%, transparent 60%)',
         }}
       />
 
